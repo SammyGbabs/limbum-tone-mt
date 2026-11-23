@@ -1,0 +1,116 @@
+{
+ "system": "explicit",
+ "seed": 1,
+ "history": [
+  {
+   "epoch": 1,
+   "loss": 2.995360079330064,
+   "dev": 17.864911708381843,
+   "min": 7.251924578348795
+  },
+  {
+   "epoch": 2,
+   "loss": 1.572861261843015,
+   "dev": 28.221460535646564,
+   "min": 7.087697704633077
+  },
+  {
+   "epoch": 3,
+   "loss": 1.1784730905989693,
+   "dev": 32.640009075783205,
+   "min": 6.8691623449325565
+  },
+  {
+   "epoch": 4,
+   "loss": 0.9574012309144064,
+   "dev": 33.928023273190064,
+   "min": 6.806099760532379
+  },
+  {
+   "epoch": 5,
+   "loss": 0.8096382410042958,
+   "dev": 35.43605831721713,
+   "min": 6.657763628164927
+  },
+  {
+   "epoch": 6,
+   "loss": 0.7104658068475205,
+   "dev": 36.95850492199641,
+   "min": 6.60872099796931
+  },
+  {
+   "epoch": 7,
+   "loss": 0.6413378390153429,
+   "dev": 37.2761558441572,
+   "min": 6.641276605923971
+  },
+  {
+   "epoch": 8,
+   "loss": 0.5947719927822342,
+   "dev": 37.45008845942346,
+   "min": 6.598673490683238
+  }
+ ],
+ "gen_min": 3.1125311970710756,
+ "cfg": {
+  "DATA_PATH": "/content/drive/MyDrive/Limbum Research/limbum_english.csv",
+  "COL_LMP": "lmp",
+  "COL_ENG": "eng",
+  "COL_SOURCE": "source",
+  "COL_REF": "ref",
+  "USE_DRIVE": true,
+  "OUT_DIR_DRIVE": "/content/drive/MyDrive/Limbum Research/limbum_tone_unicode",
+  "OUT_DIR_LOCAL": "/content/limbum_tone",
+  "NLLB_MODEL": "facebook/nllb-200-distilled-600M",
+  "BYT5_MODEL": "google/byt5-small",
+  "SRC_LANG": "eng_Latn",
+  "NEW_LANG": "lmp_Latn",
+  "PROXY_LANGS": [
+   "swh_Latn",
+   "lug_Latn",
+   "lin_Latn"
+  ],
+  "TONE_MARKS": [
+   "\u0300",
+   "\u0302",
+   "\u030c"
+  ],
+  "NLLB_SEEDS": [
+   1
+  ],
+  "RESTORER_SEEDS": [
+   1
+  ],
+  "SYSTEMS": [
+   "direct",
+   "explicit",
+   "stripped"
+  ],
+  "QUICK": false,
+  "NLLB_LR": 0.0001,
+  "NLLB_BS": 8,
+  "NLLB_ACCUM": 2,
+  "NLLB_EPOCHS": 8,
+  "NLLB_PATIENCE": 2,
+  "NLLB_WARMUP": 200,
+  "MAX_SRC_TOK": 128,
+  "MAX_TGT_TOK": 256,
+  "BEAMS": 4,
+  "GEN_BS": 16,
+  "DEV_EVAL_N": 300,
+  "FP16": true,
+  "BYT5_LR": 0.0005,
+  "BYT5_BS": 4,
+  "BYT5_ACCUM": 4,
+  "BYT5_EPOCHS": 6,
+  "BYT5_PATIENCE": 2,
+  "BYT5_WARMUP": 200,
+  "CHUNK_WORDS": 30,
+  "ENG_MAX_CHARS": 250,
+  "BYT5_MAX_IN": 640,
+  "BYT5_MAX_OUT": 448,
+  "RESTORE_BS": 24,
+  "BOOTSTRAP_N": 1000,
+  "HUMAN_EVAL_N": 100
+ }
+}

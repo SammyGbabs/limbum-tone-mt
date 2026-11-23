@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Tone Generation in an Unsupported Language: Evaluating English-to-Limbum Translation with NLLB-200"
+authors:
+  - family-names: Babalola
+    given-names: Samuel
+    affiliation: "Ruzivo Research Lab, African Leadership University; ML Collective"
+  - family-names: Ankeli
+    given-names: Oche David
+    affiliation: "Ruzivo Research Lab, African Leadership University; Yux Design"
+  - family-names: Ntohsi
+    given-names: Samiratu
+    affiliation: "Ruzivo Research Lab, African Leadership University"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Tone Generation in an Unsupported Language: Evaluating English-to-Limbum Translation with NLLB-200"
+  authors:
+    - family-names: Babalola
+      given-names: Samuel
+    - family-names: Ankeli
+      given-names: Oche David
+    - family-names: Ntohsi
+      given-names: Samiratu
+  collection-title: "Proceedings of the 2026 AI for African Languages Conference"
+  publisher:
+    name: PMLR
+  year: 2026

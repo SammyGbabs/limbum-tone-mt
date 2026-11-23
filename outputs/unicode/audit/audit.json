@@ -1,0 +1,21 @@
+{
+ "WordsMarkedPct": 40.76874072640475,
+ "MarksPerWord": 0.4310649312947552,
+ "MacronCount": 0,
+ "AcuteCount": 0,
+ "GraveCount": 96979,
+ "WordsMarkedPctNT": 40.62192919833704,
+ "WordsMarkedPctDICT": 44.305077887922316,
+ "AmbTypesPct": 9.96044588277598,
+ "AmbTypesPctFreqFive": 24.36235708003518,
+ "AmbTokensPct": 35.38599115003315,
+ "RTExactNFC": 100.0,
+ "RTMarkSurvNFC": 100.0,
+ "RTMarkSurvNFD": 100.0,
+ "RTExactExplicit": 100.0,
+ "UnkPerHundredNFC": 0.0,
+ "FertToned": 1.8618722927596254,
+ "FertStripped": 1.5935709624544618,
+ "FertExplicit": 2.1589378111881286,
+ "TruncPctExplicit": 0.01416029453412631
+}

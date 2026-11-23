@@ -1,0 +1,4 @@
+mode,exact_roundtrip_pct,mark_survival_pct,unk_per_100_tokens,tokens_per_word,survival_grave,survival_circumflex,survival_caron
+plain_nfc,100.0,100.0,0.0,1.8618722927596254,100.0,100.0,100.0
+plain_nfd,100.0,100.0,0.0,1.8618722927596254,100.0,100.0,100.0
+explicit,100.0,100.0,0.0,2.1589378111881286,100.0,100.0,100.0

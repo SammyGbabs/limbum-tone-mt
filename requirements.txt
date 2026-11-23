@@ -1,0 +1,10 @@
+# Evaluation and corpus scripts (CPU)
+numpy
+pandas
+sacrebleu==2.4.3
+openpyxl
+# Training notebook (GPU; Colab already provides torch)
+transformers==4.46.3
+sentencepiece>=0.2.0
+protobuf
+matplotlib
