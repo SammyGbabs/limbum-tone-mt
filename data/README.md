@@ -67,10 +67,24 @@ text contains á, ú, ñ and no ɛ, ʉ, ŋ.
 
 ## Terms of use
 
-> **TODO (authors):** state the licence before making the repository public. It must match the
-> terms under which the corpus was originally released with Ntohsi et al. (2026) and any terms
-> set by the rights holders of the Limbum New Testament translation and the dictionary. The
-> English side (American Standard Version, 1901) is in the public domain.
+The corpus is released under the **Creative Commons Attribution-ShareAlike 4.0** licence
+([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)), the same terms as its first
+release (Ntohsi et al., 2026). The Unicode conversion is a derivative of that release and is
+shared under the same licence. Attribute the original sources and this work when you use it.
+
+Sources:
+
+* **Limbum New Testament**, Bible Society of Cameroon (2003). It is publicly distributed and used
+  in churches across the Nkambe Plateau.
+* **English**: American Standard Version (1901), public domain.
+* **Dictionary sentences**: the Limbum Dictionary, compiled by Francis Wepngong Ndi with SIL
+  Yaoundé (first edition 2007; © 2007 Wepngong Ndi Francis and SIL Yaoundé), building on earlier
+  SIL phonological work on Limbum. One of the main authors of the sources approved their use
+  for this research.
+
+Both Limbum sources were produced for the Wimbum community. The data is intended for research
+that benefits Limbum speakers; machine-generated Limbum should be reviewed by native speakers
+before any use outside research.
 
 ## Source
 
