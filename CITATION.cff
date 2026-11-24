@@ -4,14 +4,15 @@ title: "Tone Generation in an Unsupported Language: Evaluating English-to-Limbum
 authors:
   - family-names: Babalola
     given-names: Samuel
-    affiliation: "Ruzivo Research Lab, African Leadership University; ML Collective"
+    affiliation: "Ruzivo Research Lab, African Leadership University; Wavira AI; ML Collective"
   - family-names: Ankeli
     given-names: Oche David
-    affiliation: "Ruzivo Research Lab, African Leadership University; Yux Design"
+    affiliation: "Ruzivo Research Lab, African Leadership University; Wavira AI"
   - family-names: Ntohsi
     given-names: Samiratu
     affiliation: "Ruzivo Research Lab, African Leadership University"
 license: MIT
+repository-code: "https://github.com/SammyGbabs/limbum-tone-mt"
 preferred-citation:
   type: conference-paper
   title: "Tone Generation in an Unsupported Language: Evaluating English-to-Limbum Translation with NLLB-200"
